@@ -19,7 +19,6 @@ public class GameHandler : MonoBehaviour{
 
 	public bool isShowcase = false;
 
-
 	//Players
 	public GameObject Player1Holder;
 	public GameObject Player2Holder;
@@ -33,10 +32,11 @@ public class GameHandler : MonoBehaviour{
 	public string p2PrefabName;
 	
 	//Stats
-	public static float p1Health = 20f;
-	public static float p2Health = 20f;
-	public float p1Shields = 6;
-	public float p2Shields = 6;
+	public float playersHealthStart = 20f;
+	public static float p1Health;
+	public static float p2Health;
+	public float p1Shields;
+	public float p2Shields;
 	public static string winner;
 	
 	//Text Objects to display stats
@@ -102,7 +102,12 @@ public class GameHandler : MonoBehaviour{
 		camStart.SetActive(true);
 		fightButton.SetActive(false);
 		
+		//initial player and game stats
 		gameTime = 60;
+		p1Health= playersHealthStart;
+		p2Health= playersHealthStart;
+		p1Shields = 6;
+		p2Shields = 6;
 	}
 
 	void Update(){
@@ -132,7 +137,7 @@ public class GameHandler : MonoBehaviour{
 		gameTimer += 0.01f;
 		if (gameTime <= 0){
 			gameTime = 0;
-			winner = "Time's up! No winner.";
+			winner = "Time's up! \nNo winner. \nP1 Health = " + p1Health + " \nP2 Health = " + p2Health;
 			StartCoroutine(EndGame());
 		}
 		else if (gameTimer >= 1f){
@@ -200,7 +205,7 @@ public class GameHandler : MonoBehaviour{
 	
 	IEnumerator EndGame(){
 		yield return new WaitForSeconds(0.5f);
-		Debug.Log("Game Over! \n Winner = " + winner);
+		//Debug.Log("Game Over! \n Winner = " + winner);
 		
 		if ((thisScene.name != "EndScene")&&(isShowcase == false)&&(thisScene.name != "MainMenu")){
 			SceneManager.LoadScene ("EndScene");

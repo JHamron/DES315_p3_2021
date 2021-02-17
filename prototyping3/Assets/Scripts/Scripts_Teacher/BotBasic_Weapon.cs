@@ -7,6 +7,8 @@ public class BotBasic_Weapon : MonoBehaviour{
 
 	public GameObject weaponThrust;
 	private float thrustAmount = 3f;
+	
+	private bool weaponOut = false;
 
 	//grab axis from parent object
 	public string button1;
@@ -23,15 +25,17 @@ public class BotBasic_Weapon : MonoBehaviour{
 
     void Update(){
 		//if (Input.GetKeyDown(KeyCode.T)){
-		if (Input.GetButtonDown(button1)){
+		if ((Input.GetButtonDown(button1))&&(weaponOut==false)){
 			weaponThrust.transform.Translate(0,thrustAmount, 0);
+			weaponOut = true;
 			StartCoroutine(WithdrawWeapon());
 		}
     }
 
 	IEnumerator WithdrawWeapon(){
-		yield return new WaitForSeconds(0.5f);
+		yield return new WaitForSeconds(0.6f);
 		weaponThrust.transform.Translate(0,-thrustAmount, 0);
+		weaponOut = false;
 	}
 
 }
