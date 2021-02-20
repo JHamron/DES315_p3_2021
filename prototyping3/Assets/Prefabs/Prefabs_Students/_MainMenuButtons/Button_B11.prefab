@@ -77,7 +77,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: A11 StudentName
+  m_Text: B11 StudentName
 --- !u!1 &153877234100072404
 GameObject:
   m_ObjectHideFlags: 0
