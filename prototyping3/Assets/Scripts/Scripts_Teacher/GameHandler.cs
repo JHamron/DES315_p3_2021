@@ -49,10 +49,11 @@ public class GameHandler : MonoBehaviour{
 	public GameObject winnerText;
 	
 	//Timer
+	public GameObject inputFieldGameTime;
+	public int gameTime = 60;
 	public GameObject gameTimerText;
 	private float gameTimer = 0f;
-	public int gameTime;
-	
+
 	//Variables for Bot arrays
 	public string[] botNames;	
 	public GameObject[] botPrefabs;
@@ -103,7 +104,6 @@ public class GameHandler : MonoBehaviour{
 		fightButton.SetActive(false);
 		
 		//initial player and game stats
-		gameTime = 60;
 		p1Health= playersHealthStart;
 		p2Health= playersHealthStart;
 		p1Shields = 6;
@@ -248,6 +248,10 @@ public class GameHandler : MonoBehaviour{
 	
 	//hit FIGHT button in player choice menu to start the battle
 	public void StartBattle(){
+		string gameTimeString = inputFieldGameTime.GetComponentInChildren<Text>().text;
+		int.TryParse(gameTimeString, out gameTime);
+		if (gameTime == 0){gameTime = 60;}
+		
 		UpdateStats();
 		playerMenuUI.SetActive(false);
 		gameHUD.SetActive(true);
