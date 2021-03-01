@@ -8,6 +8,9 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="Scripts_Students" t="Include">
+            <e p="botB01" t="Include">
+              <e p="botB01_Rotation.cs" t="Include" />
+            </e>
             <e p="temp.cs" t="Include" />
           </e>
           <e p="Scripts_Teacher" t="Include">
