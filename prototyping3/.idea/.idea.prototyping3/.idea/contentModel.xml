@@ -9,7 +9,16 @@
         <e p="Scripts" t="Include">
           <e p="Scripts_Students" t="Include">
             <e p="botB01" t="Include">
+              <e p="Attacks" t="Include">
+                <e p="botB01_DeployLaser.cs" t="Include" />
+                <e p="botB01_EarthQuake.cs" t="Include" />
+                <e p="botB01_PushBack.cs" t="Include" />
+                <e p="botB01_RocketLauncher.cs" t="Include" />
+              </e>
+              <e p="botB01_AttackState.cs" t="Include" />
+              <e p="botB01_IAttack.cs" t="Include" />
               <e p="botB01_Rotation.cs" t="Include" />
+              <e p="botB01_Weapons.cs" t="Include" />
             </e>
             <e p="temp.cs" t="Include" />
           </e>
