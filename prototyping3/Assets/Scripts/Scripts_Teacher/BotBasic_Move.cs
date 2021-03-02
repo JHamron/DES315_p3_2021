@@ -24,6 +24,8 @@ public class BotBasic_Move : MonoBehaviour
 	// private float flipTimer = 0;
 	// public float flipTime = 1f;
 
+	public bool isGrabbed = false;
+
 	//grab axis from parent object
 	public string parentName;
 	public string pVertical;
@@ -51,8 +53,11 @@ public class BotBasic_Move : MonoBehaviour
     void Update(){
 		float botMove = Input.GetAxisRaw(pVertical) * moveSpeed * Time.deltaTime;
 		float botRotate = Input.GetAxisRaw(pHorizontal) * rotateSpeed * Time.deltaTime;
-		transform.Translate(0,0, botMove);
-		transform.Rotate(0, botRotate, 0);
+		
+		if (isGrabbed == false){
+			transform.Translate(0,0, botMove);
+			transform.Rotate(0, botRotate, 0);
+		}
 
 		// JUMP
 		isGrounded = Physics.CheckSphere(groundCheck.position, 0.2f, groundLayer);
