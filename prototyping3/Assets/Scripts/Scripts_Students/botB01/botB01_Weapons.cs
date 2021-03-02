@@ -3,8 +3,9 @@ using UnityEngine.Assertions;
 
 public class botB01_Weapons : MonoBehaviour
 {
-    private string[] buttons;
-    private bool[] buttonStatuses;
+    private     string[] buttons;
+    private       bool[] buttonStatuses;
+    
     private botB01_PushBack       scrPushBack;
     private botB01_EarthQuake     scrEarthQuake;
     private botB01_RocketLauncher scrRocketLauncher;
