@@ -43,7 +43,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff22bea52c4781042b733d470ac98d49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Cooldown: 0
+  Cooldown: 3
 --- !u!1 &1029706280859159121
 GameObject:
   m_ObjectHideFlags: 0
@@ -556,7 +556,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5fb60f53218ab784a9c0c53e13285733, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Cooldown: 0
+  Cooldown: 3
+  RocketPrefab: {fileID: 9008631685951844394, guid: 717803d8318ddaa49ab5335300f46b75,
+    type: 3}
 --- !u!1 &3054436575312481020
 GameObject:
   m_ObjectHideFlags: 0
@@ -985,7 +987,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AuraCylinder: {fileID: 6443645347923974839, guid: 7c4a2b453df01f443b1898e94cc50104,
     type: 3}
-  Cooldown: 4
+  Cooldown: 3
   GrowthTime: 2
   LaunchTime: 0.5
   DecayTime: 0.5

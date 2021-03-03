@@ -20,30 +20,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ed298cb-7c6b-434e-87cc-0044c1df7f1d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Media/Media_Students/botB01/Materials/botB01_aura1.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Media/Media_Students/botB01/Materials/botB01_aura1.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Media/Media_Students/botB01/Prefabs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Media/Media_Students/botB01/Prefabs/botB01_AuraCylinder.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Media/Media_Students/botB01/Prefabs/botB01_AuraCylinder.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Media/Media_Students/botB01/Prefabs/botB01_QuakeCylinder.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Media/Media_Students/botB01/Prefabs/botB01_QuakeCylinder.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Media/Media_Students/botB01/botB01_CylinderShell.blend" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Media/Media_Students/botB01/botB01_CylinderShell.blend.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Scripts_Students/botB01/Effects.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Scripts_Students/botB01/Effects/botB01_PushBackLauncher.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Scripts_Students/botB01/Effects/botB01_PushBackLauncher.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Scripts_Students/botB01/Effects/botB01_QuakeLauncher.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Scripts_Students/botB01/Effects/botB01_QuakeLauncher.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Scripts_Students/botB01/botB01_CameraOverride.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Scripts_Students/botB01/botB01_CameraOverride.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Media/Media_Students/botB01/Materials/botB01_aura0.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Media/Media_Students/botB01/Materials/botB01_aura0.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Media/Media_Students/botB01/Materials/botB01_rocket.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Media/Media_Students/botB01/Materials/botB01_rocket.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Media/Media_Students/botB01/Materials/botB01_rocket0.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Media/Media_Students/botB01/Materials/botB01_rocket0.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Media/Media_Students/botB01/Materials/botB01_rocket1.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Media/Media_Students/botB01/Materials/botB01_rocket1.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Media/Media_Students/botB01/Models.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Media/Media_Students/botB01/Models/botB01_CylinderShell.blend" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Media/Media_Students/botB01/Models/botB01_CylinderShell.blend.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Media/Media_Students/botB01/Models/botB01_Tetrahedron.blend" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Media/Media_Students/botB01/Models/botB01_Tetrahedron.blend.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Media/Media_Students/botB01/Models/botB01_TriangularPrism.blend" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Media/Media_Students/botB01/Models/botB01_TriangularPrism.blend.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Media/Media_Students/botB01/Prefabs/botB01_Rocket 1.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Media/Media_Students/botB01/Prefabs/botB01_Rocket 1.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Scripts_Students/botB01/Effects/botB01_RocketHoming.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Scripts_Students/botB01/Effects/botB01_RocketHoming.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.prototyping3/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.prototyping3/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.prototyping3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.prototyping3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Media/Media_Students/botB01/CylinderShell.blend" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Media/Media_Students/botB01/CylinderShell.blend.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Media/Media_Students/botB01/Materials/botB01_aura.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Media/Media_Students/botB01/Materials/botB01_aura.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Media/Media_Students/botB01/Materials/botB01_aura1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Media/Media_Students/botB01/Materials/botB01_aura1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Media/Media_Students/botB01/botB01_CylinderShell.blend" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Media/Media_Students/botB01/botB01_CylinderShell.blend.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Prefabs_Students/BotB01.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Prefabs_Students/BotB01.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Scripts_Students/botB01/Attacks/botB01_DeployLaser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Scripts_Students/botB01/Attacks/botB01_DeployLaser.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Scripts_Students/botB01/Attacks/botB01_EarthQuake.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Scripts_Students/botB01/Attacks/botB01_EarthQuake.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Scripts_Students/botB01/Attacks/botB01_PushBack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Scripts_Students/botB01/Attacks/botB01_PushBack.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Scripts_Students/botB01/Attacks/botB01_RocketLauncher.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Scripts_Students/botB01/Attacks/botB01_RocketLauncher.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Scripts_Students/botB01/botB01_IAttack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Scripts_Students/botB01/botB01_IAttack.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Scripts_Students/botB01/botB01_Weapons.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Scripts_Students/botB01/botB01_Weapons.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,19 +78,20 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Scripts_Students/botB01/botB01_PushBack.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Scripts_Students/botB01/Attack.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Scripts_Students/botB01/botB01_Attack.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Scripts_Students/botB01/botB01_IAttack.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Scripts_Students/botB01/AttackState.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Scripts_Students/botB01/state.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Scripts_Students/botB01/botB01_AttackState.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Scripts_Students/botB01/Attacks/botB01_DeployLaser.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Scripts_Students/botB01/Attacks/botB01_RocketLauncher.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Scripts_Students/botB01/botB01_Weapons.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Scripts_Students/botB01/Attacks/botB01_HazardPushBack.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Scripts_Students/botB01/Effects/botB01_PushBackLauncher.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Scripts_Students/botB01/Effects/botB01_QuakeLauncher.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Scripts_Students/botB01/botB01_CameraOverride.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Scripts_Students/botB01/botB01_IAttack.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Scripts_Students/botB01/Attacks/botB01_PushBack.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Scripts_Students/botB01/Attacks/botB01_EarthQuake.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Scripts_Students/botB01/botB01_CameraOverride.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Scripts_Students/botB01/botB01_Weapons.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Scripts_Students/botB01/Effects/botB01_RocketHoming.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Scripts_Students/botB01/Attacks/botB01_RocketLauncher.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Scripts_Students/botB01/Attacks/botB01_DeployLaser.cs" />
       </list>
     </option>
   </component>
@@ -114,10 +122,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="19508">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="22532">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="19508" />
+      <option name="pid" value="22532" />
       <option name="selectedOptions">
         <set />
       </option>
@@ -134,6 +142,7 @@
       <updated>1614548108814</updated>
       <workItem from="1614548121475" duration="8531000" />
       <workItem from="1614615924476" duration="17608000" />
+      <workItem from="1614711635384" duration="6901000" />
     </task>
     <servers />
   </component>
@@ -160,69 +169,69 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="457" height="464" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1614632087035" />
-    <state width="1877" height="288" key="GridCell.Tab.0.bottom" timestamp="1614643216389">
+    <state width="1877" height="288" key="GridCell.Tab.0.bottom" timestamp="1614733024474">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="288" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614643216389" />
-    <state width="1877" height="288" key="GridCell.Tab.0.center" timestamp="1614643216389">
+    <state width="1877" height="288" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614733024474" />
+    <state width="1877" height="288" key="GridCell.Tab.0.center" timestamp="1614733024474">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="288" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614643216389" />
-    <state width="1877" height="288" key="GridCell.Tab.0.left" timestamp="1614643216389">
+    <state width="1877" height="288" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614733024474" />
+    <state width="1877" height="288" key="GridCell.Tab.0.left" timestamp="1614733024474">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="288" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614643216389" />
-    <state width="1877" height="288" key="GridCell.Tab.0.right" timestamp="1614643216389">
+    <state width="1877" height="288" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614733024474" />
+    <state width="1877" height="288" key="GridCell.Tab.0.right" timestamp="1614733024474">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="288" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614643216389" />
-    <state width="1877" height="288" key="GridCell.Tab.1.bottom" timestamp="1614643216390">
+    <state width="1877" height="288" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614733024474" />
+    <state width="1877" height="288" key="GridCell.Tab.1.bottom" timestamp="1614733024474">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="288" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614643216390" />
-    <state width="1877" height="288" key="GridCell.Tab.1.center" timestamp="1614643216389">
+    <state width="1877" height="288" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614733024474" />
+    <state width="1877" height="288" key="GridCell.Tab.1.center" timestamp="1614733024474">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="288" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614643216389" />
-    <state width="1877" height="288" key="GridCell.Tab.1.left" timestamp="1614643216389">
+    <state width="1877" height="288" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614733024474" />
+    <state width="1877" height="288" key="GridCell.Tab.1.left" timestamp="1614733024474">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="288" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614643216389" />
-    <state width="1877" height="288" key="GridCell.Tab.1.right" timestamp="1614643216390">
+    <state width="1877" height="288" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614733024474" />
+    <state width="1877" height="288" key="GridCell.Tab.1.right" timestamp="1614733024474">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="288" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614643216390" />
-    <state width="1877" height="288" key="GridCell.Tab.2.bottom" timestamp="1614643216390">
+    <state width="1877" height="288" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614733024474" />
+    <state width="1877" height="288" key="GridCell.Tab.2.bottom" timestamp="1614733024474">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="288" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614643216390" />
-    <state width="1877" height="288" key="GridCell.Tab.2.center" timestamp="1614643216390">
+    <state width="1877" height="288" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614733024474" />
+    <state width="1877" height="288" key="GridCell.Tab.2.center" timestamp="1614733024474">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="288" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614643216390" />
-    <state width="1877" height="288" key="GridCell.Tab.2.left" timestamp="1614643216390">
+    <state width="1877" height="288" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614733024474" />
+    <state width="1877" height="288" key="GridCell.Tab.2.left" timestamp="1614733024474">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="288" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614643216390" />
-    <state width="1877" height="288" key="GridCell.Tab.2.right" timestamp="1614643216390">
+    <state width="1877" height="288" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614733024474" />
+    <state width="1877" height="288" key="GridCell.Tab.2.right" timestamp="1614733024474">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="288" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614643216390" />
-    <state width="1877" height="288" key="GridCell.Tab.3.bottom" timestamp="1614643216390">
+    <state width="1877" height="288" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614733024474" />
+    <state width="1877" height="288" key="GridCell.Tab.3.bottom" timestamp="1614733024474">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="288" key="GridCell.Tab.3.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614643216390" />
-    <state width="1877" height="288" key="GridCell.Tab.3.center" timestamp="1614643216390">
+    <state width="1877" height="288" key="GridCell.Tab.3.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614733024474" />
+    <state width="1877" height="288" key="GridCell.Tab.3.center" timestamp="1614733024474">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="288" key="GridCell.Tab.3.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614643216390" />
-    <state width="1877" height="288" key="GridCell.Tab.3.left" timestamp="1614643216390">
+    <state width="1877" height="288" key="GridCell.Tab.3.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614733024474" />
+    <state width="1877" height="288" key="GridCell.Tab.3.left" timestamp="1614733024474">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="288" key="GridCell.Tab.3.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614643216390" />
-    <state width="1877" height="288" key="GridCell.Tab.3.right" timestamp="1614643216390">
+    <state width="1877" height="288" key="GridCell.Tab.3.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614733024474" />
+    <state width="1877" height="288" key="GridCell.Tab.3.right" timestamp="1614733024474">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="288" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614643216390" />
+    <state width="1877" height="288" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614733024474" />
   </component>
 </project>

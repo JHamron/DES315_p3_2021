@@ -23,6 +23,7 @@
               <e p="Effects" t="Include">
                 <e p="botB01_PushBackLauncher.cs" t="Include" />
                 <e p="botB01_QuakeLauncher.cs" t="Include" />
+                <e p="botB01_RocketHoming.cs" t="Include" />
               </e>
             </e>
             <e p="temp.cs" t="Include" />
