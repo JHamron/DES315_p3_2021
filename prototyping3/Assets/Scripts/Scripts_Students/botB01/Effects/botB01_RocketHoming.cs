@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class botB01_RocketHoming : MonoBehaviour
 {
@@ -8,6 +9,8 @@ public class botB01_RocketHoming : MonoBehaviour
     [Range(0, 10)] public float Speed;
     [Range(0, 10)]  public float AngularSpeed;
     private Vector3 velocity;
+
+    [Range(0, 500)] public float Knockback = 200;
     
     [Range(0, 5)] public float WarmUpTime;
     private float warmUpTimer = 0.0f;
@@ -16,6 +19,8 @@ public class botB01_RocketHoming : MonoBehaviour
     private Color white;
 
     private Collider col;
+
+    public botB01_RocketLauncher scrLauncher;
 
     private botB01_AttackState state;
     
@@ -60,5 +65,29 @@ public class botB01_RocketHoming : MonoBehaviour
         }
 
         transform.position += velocity * (Speed * Time.deltaTime);
+    }
+
+    // private void OnCollisionEnter(Collision other)
+    // {
+    //     var obj = other.transform.root;
+    //
+    //     if (obj.tag.Contains("Player"))
+    //     {
+    //         Vector3 dir = (obj.transform.position - transform.position).normalized;
+    //         dir.y = 0.5f;
+    //         Rigidbody rb = other.transform.root.GetComponentInChildren<Rigidbody>();
+    //         rb.AddForce(dir * Knockback, ForceMode.Impulse);
+    //     }
+    //
+    //     //transform.GetComponent<Collider>().enabled = false;
+    //     foreach (MeshRenderer mesh in transform.GetComponentsInChildren<MeshRenderer>())
+    //         mesh.enabled = false;
+    //     Destroy(gameObject, 1.00f); 
+    // }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        Destroy(gameObject);
+        scrLauncher.SpawnExplosion(transform.position);
     }
 }
