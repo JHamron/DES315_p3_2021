@@ -20,8 +20,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ed298cb-7c6b-434e-87cc-0044c1df7f1d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Media/Media_Students/botA11/MiniBot.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Media/Media_Students/botA11/MiniBot.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Scenes_Students/Scene_BotA11.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Scenes_Students/Scene_BotA11/NavMesh.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Scenes_Students/Scene_BotA11/NavMesh.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Scenes_Teacher/Arena1.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Scenes_Teacher/Arena1/NavMesh.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Scenes_Teacher/Arena1/NavMesh.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Scripts_Students/botA11/A11_AttacksManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Scripts_Students/botA11/A11_AttacksManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Scripts_Students/botA11/A11_Heal.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Scripts_Students/botA11/A11_Heal.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Scripts_Students/botA11/A11_IAttack.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Scripts_Students/botA11/A11_IAttack.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Scripts_Students/botA11/A11_MiniBot.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Scripts_Students/botA11/A11_MiniBot.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.prototyping3/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.prototyping3/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.prototyping3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.prototyping3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Prefabs_Students/BotA11.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Prefabs_Students/BotA11.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scenes_Students/Scene_BotA11.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scenes_Students/Scene_BotA11.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scenes_Teacher/Arena1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scenes_Teacher/Arena1.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,9 +54,13 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scripts_Students/botB01/Attacks/botB01_PushBack.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scripts_Students/botB01/Attacks/botB01_DeployLaser.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scripts_Students/botB01/botB01_Rotation.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scripts_Students/botA11/A11_IAttack.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scripts_Students/botB01/botB01_IAttack.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scripts_Students/botB01/Attacks/botB01_RocketLauncher.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scripts_Students/botB01/Attacks/botB01_EarthQuake.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scripts_Students/botA11/A11_Heal.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scripts_Students/botA11/A11_MiniBot.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/EE47BE73-F7EF-409C-A5E5-CE4B121745B7/aa/f90e1269/Random.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -52,13 +75,18 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Scripts_Students/botB01/botB01_AttackState.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Scripts_Students/botB01/Attacks/botB01_DeployLaser.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Scripts_Students/botB01/Attacks/botB01_RocketLauncher.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Scripts_Students/botB01/botB01_Weapons.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Scripts_Students/botB01/Attacks/botB01_HazardPushBack.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Scripts_Students/botB01/Effects/botB01_PushBackLauncher.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Scripts_Students/botB01/Effects/botB01_QuakeLauncher.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Scripts_Students/botB01/Attacks/botB01_PushBack.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Scripts_Students/botB01/Attacks/botB01_EarthQuake.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Scripts_Students/botB01/botB01_CameraOverride.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Scripts_Students/botB01/botB01_Weapons.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Scripts_Students/botA11/AttacksManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Scripts_Students/botA11/A11_IAttack.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Scripts_Students/botA11/A11_AttacksManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Scripts_Students/botA11/A11_Heal.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Scripts_Students/botA11/A11_MiniBot.cs" />
       </list>
     </option>
   </component>
@@ -110,6 +138,8 @@
       <workItem from="1614548121475" duration="8531000" />
       <workItem from="1614615924476" duration="17608000" />
       <workItem from="1614748929162" duration="2061000" />
+      <workItem from="1614916837726" duration="2227000" />
+      <workItem from="1614976538712" duration="7221000" />
     </task>
     <servers />
   </component>

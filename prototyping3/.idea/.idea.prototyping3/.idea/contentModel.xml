@@ -8,6 +8,12 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="Scripts_Students" t="Include">
+            <e p="botA11" t="Include">
+              <e p="A11_AttacksManager.cs" t="Include" />
+              <e p="A11_Heal.cs" t="Include" />
+              <e p="A11_IAttack.cs" t="Include" />
+              <e p="A11_MiniBot.cs" t="Include" />
+            </e>
             <e p="botB01" t="Include">
               <e p="Attacks" t="Include">
                 <e p="botB01_DeployLaser.cs" t="Include" />
