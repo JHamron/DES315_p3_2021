@@ -559,7 +559,7 @@ MonoBehaviour:
   Cooldown: 2
   RocketPrefab: {fileID: 9008631685951844394, guid: 717803d8318ddaa49ab5335300f46b75,
     type: 3}
-  ExplosionPrefab: {fileID: 322023015773914590, guid: ed28958728474ef459352eb749476d73,
+  ParticlesPrefab: {fileID: 7916852506792683719, guid: a6746c9ee60a1a44d813bcdbac5cb0ce,
     type: 3}
 --- !u!1 &3054436575312481020
 GameObject:

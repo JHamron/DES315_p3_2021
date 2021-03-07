@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 
 public class botB01_RocketLauncher : MonoBehaviour, botB01_IAttack
 {
@@ -10,14 +11,22 @@ public class botB01_RocketLauncher : MonoBehaviour, botB01_IAttack
     private botB01_AttackState currentState;
 
     public GameObject RocketPrefab;
-    public GameObject ExplosionPrefab;
     private GameObject enemy;
 
+    public GameObject ParticlesPrefab;
+
+    public GameHandler scrHandler;
+    public BotBasic_Damage scrDamage;
+    public BotBasic_Damage scrDamageSelf;
 
     void Start()
     {
         scrWeapons = transform.parent.parent.GetComponent<botB01_Weapons>();
         enemy = GetEnemyBot();
+
+        scrHandler = FindObjectOfType<GameHandler>();
+        scrDamage = enemy.GetComponent<BotBasic_Damage>();
+        scrDamageSelf = transform.root.GetComponentInChildren<BotBasic_Damage>();
     }
 
     void Update()
@@ -69,13 +78,25 @@ public class botB01_RocketLauncher : MonoBehaviour, botB01_IAttack
 
     public void SpawnExplosion(Vector3 pos)
     {
-        GameObject obj = Instantiate(ExplosionPrefab);
-        obj.transform.position = pos;
-        
-        var hazard = obj.GetComponent<HazardDamage>();
-        if (transform.root.CompareTag("Player1"))
-            hazard.isPlayer1Weapon = true;
-        if (transform.root.CompareTag("Player2"))
-            hazard.isPlayer2Weapon = true;
+        GameObject damageParticles = Instantiate (ParticlesPrefab, pos, Quaternion.identity);
+        StartCoroutine(destroyParticles(damageParticles));
+    }
+    
+    IEnumerator destroyParticles(GameObject particles)
+    {
+        yield return new WaitForSeconds(0.5f);
+        Destroy(particles);
+    }
+
+    public void HitShield(GameObject shield)
+    {
+        StartCoroutine(ShieldHitDisplay(scrDamage.shieldTopObj));
+    }
+    
+    IEnumerator ShieldHitDisplay(GameObject shieldObj)
+    {
+        shieldObj.SetActive(true);
+        yield return new WaitForSeconds(0.4f);
+        shieldObj.SetActive(false);
     }
 }

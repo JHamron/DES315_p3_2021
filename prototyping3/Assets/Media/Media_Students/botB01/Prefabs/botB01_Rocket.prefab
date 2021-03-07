@@ -339,7 +339,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9008631685951844392}
-  - component: {fileID: 4556599506912467296}
+  - component: {fileID: 2263831486329553947}
   - component: {fileID: 2046215557297218385}
   m_Layer: 0
   m_Name: botB01_Rocket
@@ -363,7 +363,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &4556599506912467296
+--- !u!65 &2263831486329553947
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -371,7 +371,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9008631685951844394}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.75, y: 0.75, z: 1.5}
@@ -392,9 +392,12 @@ MonoBehaviour:
   ball: {fileID: 1962310161363472472}
   Speed: 4
   AngularSpeed: 2
-  Knockback: 50
+  velocity: {x: 0, y: 0, z: 0}
+  Knockback: 100
   WarmUpTime: 2
+  Damage: 2
   scrLauncher: {fileID: 0}
+  state: 0
 --- !u!1 &9008631686198368783
 GameObject:
   m_ObjectHideFlags: 0
