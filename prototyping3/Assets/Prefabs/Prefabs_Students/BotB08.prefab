@@ -272,8 +272,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aab929fe774a0084c8ae87aafe02faf6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 10
-  rotateSpeed: 100
+  moveSpeed: 20
+  rotateSpeed: 150
   jumpSpeed: 7
   boostSpeed: 10
   groundCheck: {fileID: 1355330930762081256}
@@ -305,12 +305,12 @@ MonoBehaviour:
   compassSides: {fileID: 1029706280859159121}
   compassVertical: {fileID: 4587639291210960121}
   knockBackSpeed: 10
-  shieldPowerFront: 5
-  shieldPowerBack: 5
-  shieldPowerLeft: 5
-  shieldPowerRight: 5
-  shieldPowerTop: 5
-  shieldPowerBottom: 5
+  shieldPowerFront: 2
+  shieldPowerBack: 2
+  shieldPowerLeft: 2
+  shieldPowerRight: 2
+  shieldPowerTop: 2
+  shieldPowerBottom: 6
   shieldFrontObj: {fileID: 5842800509108774881}
   shieldBackObj: {fileID: 4646661635187871857}
   shieldLeftObj: {fileID: 8925011698669544524}
@@ -380,6 +380,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MinePrefab: {fileID: 7590049065746178643, guid: 60e4dc01198c9584eb72df8158787098,
     type: 3}
+  button1: 
+  MineCooldownTime: 3
 --- !u!1 &1355330930662561729
 GameObject:
   m_ObjectHideFlags: 0
@@ -538,7 +540,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6018652261106665084
 Transform:
   m_ObjectHideFlags: 0

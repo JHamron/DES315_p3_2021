@@ -27,39 +27,38 @@ public class MineBehavior : MonoBehaviour
     [SerializeField] private Material BlinkColor;
 
     [SerializeField] private MeshRenderer Rend;
-    
+
+    private bool isBlinking = false;
+
+    [SerializeField] private GameObject MineObj;
+    //[SerializeField] private GameObject ExplosionObj;
+
+    private BoxCollider Collider;
+
     // Start is called before the first frame update
     void Start()
     {
         Rend.material = InactiveColor;
+        Collider = GetComponent<BoxCollider>();
+        Collider.enabled = false;
     }
 
     // Update is called once per frame
     void Update()
     {
         // Spawn timer is the time before mine is active
-        if (spawnTimer >= SpawnTime)
+        if (spawnTimer >= SpawnTime && !isActive)
         {
             isActive = true;
             gameObject.tag = "Hazard";
             Rend.material = ActiveColor;
+            Collider.enabled = true;
         }
         else
         {
             spawnTimer += Time.deltaTime;
         }
-
-        // Life timer after it's been active
-        if (lifeTimer >= LifeTime)
-        {
-            Explode();
-        }
-        else if (isActive)
-        {
-            lifeTimer += Time.deltaTime;
-        }
-
-
+        
         if (isActive)
         {
             // Not currently doing a blink
@@ -74,6 +73,7 @@ public class MineBehavior : MonoBehaviour
                     // Start active blinking
                     blinkHoldTimer += Time.deltaTime;
                     Rend.material = BlinkColor;
+                    //isBlinking = true;
                 }
             }
             else
@@ -84,17 +84,36 @@ public class MineBehavior : MonoBehaviour
                     blinkHoldTimer = 0f;
                     blinkTimer = 0f;
                     Rend.material = ActiveColor;
+                    //isBlinking = false;
                 }
             }
 
         }
+
+        // Life timer after it's been active
+        if (lifeTimer >= LifeTime)
+        {
+            Explode();
+            
+            //// Checking if explosion is done
+            //if (!ExplosionObj.GetComponent<ParticleSystem>().isEmitting)
+            //{
+            //    Destroy(gameObject);
+            //}
+        }
+        else if (isActive)
+        {
+            lifeTimer += Time.deltaTime;
+        }
+        
         
     }
     
     // Collision code to check if isActive
-    private void OnTriggerEnter(Collider other)
+    //private void OnTriggerEnter(Collider other)
+    private void OnCollisionEnter(Collision other)
     {
-        if (isActive && gameObject.transform.root.tag.Contains("Player"))
+        if (isActive)// && other.gameObject.transform.root.tag.Contains("Player"))
         {
             Explode();
         }
@@ -102,9 +121,11 @@ public class MineBehavior : MonoBehaviour
 
     private void Explode()
     {
-        // TODO Particle burst
-        
-        Destroy(this);
+        MineObj.SetActive(false);
+        //ExplosionObj.SetActive(true);
+        isActive = false;
+        Collider.enabled = false;
+        Destroy(gameObject);
     }
 }
 
