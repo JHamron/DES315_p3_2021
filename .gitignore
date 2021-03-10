@@ -60,3 +60,4 @@ crashlytics-build.properties
 
 # Mac OS Finder files
 *.DS_Store
+prototyping3/Packages/packages-lock.json
